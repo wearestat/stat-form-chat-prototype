@@ -5,14 +5,21 @@
     "type": "text"
   },
   {
-    "id": "contactLocation",
-    "question": "Where are you contacting from",
-    "type": "multiple_choice",
-    "options": ["Health Care Centre", "Adult Care Services Referral"]
+    "id": "contactSource",
+    "question": "Where did you contact us from?",
+    "type": "select",
+    "options": ["Health Centre", "School", "Children's Centre", "Website"]
   },
   {
     "id": "carerResponsibilities",
-    "question": "Do you have Carer Responsibilities?",
-    "type": "text"
+    "question": "Do you have carer responsibilities?",
+    "type": "multiple_choice",
+    "options": ["Yes", "No"]
+  },
+  {
+    "id": "supportType",
+    "question": "What type of support are you looking for?",
+    "type": "select",
+    "options": ["Childcare", "Early Years Education", "Family Support", "Other"]
   }
 ]
