@@ -1,0 +1,18 @@
+[
+  {
+    "id": "fullName",
+    "question": "What is your full name?",
+    "type": "text"
+  },
+  {
+    "id": "contactLocation",
+    "question": "Where are you contacting from",
+    "type": "multiple_choice",
+    "options": ["Health Care Centre", "Adult Care Services Referral"]
+  },
+  {
+    "id": "carerResponsibilities",
+    "question": "Do you have Carer Responsibilities?",
+    "type": "text"
+  }
+]
